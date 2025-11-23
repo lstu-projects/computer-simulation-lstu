@@ -1590,6 +1590,7 @@ def main():
                     break
 
         elif current_screen == "experiments":
+
             exp_screen = ExperimentScreen()
             result = exp_screen.run_experiments()
             pygame.quit()
